@@ -1,0 +1,14 @@
+conda create --name myDjanogoEnv django
+conda info --envs
+
+activate myDjanogoEnv
+
+conda install django
+# When you install Django
+django-admin startproject first_project
+
+#running server cd/first_project
+python manage.py runserver
+
+## /first_project. Create a simple application with:
+python manage.py startapp first_app

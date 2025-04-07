@@ -1,0 +1,10 @@
+https://refactoring.guru/design-patterns/singleton/python/example#lang-features
+
+Singleton is a creational design pattern, which ensures that only one object of its kind exists and provides a single point of access to it for any other code.
+Single là một mẫu thiết kế sáng tạo, đảm bảo rằng chỉ có một đối tượng cùng loại tồn tại và cung cấp một điểm truy cập duy nhất vào đối tượng đó cho bất kỳ mã nào khác.
+
+Singleton has almost the same pros and cons as global variables. Although they're super-handy, they break modularity of your code.
+Singleton có hầu như cùng ưu và nhược điểm như biến toàn cục. Mặc dù chúng rất tiện dụng, nhưng chúng cũng phá vỡ tính mô-đun của mã của bạn
+
+You can't just use a class that depends on a Singleton is some other context, without carrying over the Singleton to the other context. Most of the time, this limitation comes up during the creation of unit tests.
+Bạn không chỉ sự dụng một lớp phụ thuộc vào Singleton trong một ngữ cảnh khách mà không chuyển Singleton sang ngữ cảnh khác nhau. Hầu hết thời gian, hạn chế này xuất hiện trong quá trình tạo các bài kiểm tra đơn vị.
