@@ -7,6 +7,12 @@ print( type(decimal) )
 text: str = "Hello, world!"
 print( type(str) )
 
+str2 = "" # str - blank
+print( type(str2) )
+
+str3 = " " # str - Empty Space
+print( type(str3) )
+
 active: bool = True
 print( type(active) )
 
@@ -21,3 +27,6 @@ print( type(unique) )
 
 data: dict = {'name': 'Bob', 'age': 20}
 print( type(data) )
+
+none = None # None type
+print( type(none))

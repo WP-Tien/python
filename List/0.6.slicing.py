@@ -23,6 +23,7 @@ print(l[1:4])
 print(l[:])
 
 # Slice từ đầu đến cuối, nhảy 2 bước
+print("Slice từ đầu đến cuối, nhảy 2 bước")
 print(l[::2])
 
 # Slice đảo ngược lại list

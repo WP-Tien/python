@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% from 'bootstrap5/form.html' import render_field %}
+
+{% block body %}
+<div class="container mt-5" style="max-width: 500px;">
+    <div class="card shadow">
+        <div class="card-body">
+            <h2 class="mb-4 text-center text-dark-emphasis">
+                Sign Up
+            </h2>
+
+            {% include "partials/message.html" %}
+
+            <!-- Login Form -->
+            <form method="POST">
+                {{ form.hidden_tag() }}
+
+                {{ render_field(form.email) }}
+
+                {{ render_field(form.username) }}
+
+                {{ render_field(form.password) }}
+
+                {{ render_field(form.confirm) }}
+
+                {{ render_field(form.submit) }}
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

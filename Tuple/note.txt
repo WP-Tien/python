@@ -1,0 +1,4 @@
+Tương tự List nhưng tuple là immutable, nghĩa là một khi được tạo ra thì tuple không thể thay đổi được.
+Tuy nhiên phần tử của tuple có thể thuộc kiểu tuỳ ý.
+Dùng () để khởi tạo tuple hoặc hàm tuple().
+

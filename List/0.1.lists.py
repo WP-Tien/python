@@ -1,4 +1,5 @@
-# A list stores a series of items in a particular order. You accesss items using an index, or withing a loop. 
+# A list stores a series of items in a particular order. 
+# You accesss items using an index, or withing a loop. 
 # List = [] ordered and changeable. Duplicates OK
 
 names = [
@@ -44,19 +45,19 @@ for x in range(1, 11):
 
 print(squares)
 
-# list comprehensions
+# List comprehensions
 squares_2 = [x**2 for x in range(1, 11)]
 
 print(squares_2)
 
-# slice a list
+# Slice a list
 finishers = ['sam', 'bob', 'ada', 'bea']
 
 first_two = finishers[:2]
 
 print(first_two)
 
-# copy a list
+# Copy a list
 copy_of_bike = bikes[:]
 
 print(copy_of_bike)

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title%} {% endblock %}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/stylesheet.css">
+
+    {{ bootstrap.load_css() }}
+    {% block head %} {% endblock %}
+</head>
+
+<body>
+    {% if current_user.is_authenticated %}
+    {% include "includes/_navbar.html" %}
+    {% endif %}
+
+    {% block body %}{% endblock %}
+
+    {% if current_user.is_authenticated %}
+    {% include "includes/_footer.html" %}
+    {% endif %}
+
+    {{ bootstrap.load_js() }}
+</body>
+
+</html>

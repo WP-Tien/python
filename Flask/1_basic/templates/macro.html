@@ -1,0 +1,20 @@
+{% import "macro.jinja2" as todo_macros %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Macro</title>
+    </head>
+    <body>
+        {% set num_todos = todos|length %}
+
+        {% if num_todos > 0 %}
+            <p>You have {{ num_todos }} left to do today. </p>
+            {{ todo_macros.todo_list(todos) }}
+        {% else %}
+            <p> You have nothing to do today! Relax!</p>
+        {% endif %}
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat CLAUDE.md 2>/dev/null || echo \"Run: tramy setup\""
+          }
+        ]
+      }
+    ]
+  }
+}

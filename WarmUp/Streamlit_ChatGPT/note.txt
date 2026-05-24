@@ -1,0 +1,7 @@
+Streamlit giúp biến mã Python thành ứng dụng web tương tác. Với OpenAI API, ta có thể tạo giao diện chat giống ChatGPT trong vài chục dòng code.
+
+Luồng hoạt động
+- Nhập liệu                 Người dùng gõ câu hỏi (st.chat_input)
+- Quản lý phiên             Lưu hội thoại trong st.session_state.messages
+- Gọi API                   Gửi lịch sử chat lên OpenAI (model ví dụ: gpt-4o)
+- Hiển thị                  Trả lời hiển thị bằng st.chat_message("assistant")

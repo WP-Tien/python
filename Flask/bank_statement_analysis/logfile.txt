@@ -1,0 +1,85 @@
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: 'str' object is not callable
+CRITICAL:root:The following error occurred when logging in: (pymysql.err.ProgrammingError) (1146, "Table 'bank_statement_analysis.users' doesn't exist")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'admin', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+CRITICAL:root:The following error occurred when logging in: (pymysql.err.ProgrammingError) (1146, "Table 'bank_statement_analysis.users' doesn't exist")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'admin', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+CRITICAL:root:The following error occurred when logging in: (pymysql.err.ProgrammingError) (1146, "Table 'bank_statement_analysis.users' doesn't exist")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'admin', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+CRITICAL:root:The following error occurred when logging in: (pymysql.err.ProgrammingError) (1146, "Table 'bank_statement_analysis.users' doesn't exist")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'admin', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+INFO:flask_wtf.csrf:The CSRF token is invalid.
+INFO:flask_wtf.csrf:The CSRF token is invalid.
+INFO:flask_wtf.csrf:The CSRF token is invalid.
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined

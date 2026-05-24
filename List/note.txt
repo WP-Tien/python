@@ -1,0 +1,7 @@
+Dùng để chứa 0 hoặc nhiều phần tử dưới chung một biến.
+Các phần tử có sắp thứ tự và được đánh index.
+Index bắt đầu từ 0 và kết thúc ở n-1.
+List là mutable: tức có thể thêm, sửa, xoá phần tử sau khi được tạo.
+Khởi tạo list dùng []
+Các phần tử có thể khác kiểu dữ liệu. List có thể chưa list (nested list)
+Các phần tử có thể truy xuất qua indexing hoặc slicing.

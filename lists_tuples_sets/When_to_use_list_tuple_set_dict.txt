@@ -1,0 +1,12 @@
+        Ordered         Duplicates          Indexed         Mutable
+list[]  v               v                   v               v
+tuple() v               v                   v               x
+set{}   x               x                   x               v
+dict{}  v               x keys, v values    keyed           v
+
+
+
+=> start => default ? no other reasons => List [1, 2, 3]
+                                                        => Protect ? No changes! => Tuple (1,2,3)
+                                                        => Unique & Performance ? Comparison => Set {1,2,3}
+                                                        => Mapping ? Multiple Info in one place => Dict {a:1, b:2}

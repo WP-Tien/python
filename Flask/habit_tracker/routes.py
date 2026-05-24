@@ -11,8 +11,6 @@ pages = Blueprint("habits", __name__, template_folder="templates", static_folder
 habits = ["Test habit", "Test habit 2"]
 completions = defaultdict(list)
 
-
-
 @pages.context_processor # pass function vao` template
 def add_calc_date_range():
     def date_range(start: datetime.date):

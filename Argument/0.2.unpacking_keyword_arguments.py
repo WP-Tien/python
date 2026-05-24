@@ -1,5 +1,6 @@
 def named(**kwargs):
     print(kwargs)
+    print(type(kwargs)) # dict
 
 def print_nicely(**kwargs):
     named(**kwargs)

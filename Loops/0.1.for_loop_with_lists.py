@@ -1,4 +1,4 @@
-# Iterables = An object/collection that can return its elements one at a time,
+# Iterables = An object/collection that can return its elements one at a time
 
 fruits = ["Apple", "Peach", "Pear"]
 
@@ -12,3 +12,4 @@ name = "Vincent"
  
 for character in name:
     print( character, end=" " )
+    

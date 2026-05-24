@@ -1,0 +1,21 @@
+{% load static %}
+{% load compress %}
+{% load seo %}
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% with post_slug=request.resolver_match.kwargs.post_slug  %}
+    {% title_tag post_slug %}
+    {% description_meta post_slug %}
+    {% keywords_meta post_slug %}
+    {% og_meta_title post_slug %}
+    {% og_meta_description post_slug %}
+{% endwith %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% compress css %}
+    <link rel="stylesheet" charset="utf-8" type="text/css" href="{% static 'posts/assets/css/style.css' %}">
+    <link rel="stylesheet" charset="utf-8" type="text/css" href="{% static 'posts/assets/css/style2.css' %}">
+{% endcompress %}

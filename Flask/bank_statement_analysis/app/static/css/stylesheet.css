@@ -1,0 +1,98 @@
+body {
+    background-color: #E9ECEF !important;
+    height: 100%;
+    padding-bottom: 140px !important;
+
+    font-family: "Google Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+
+
+a.class1 {
+    color: #414b56;
+}
+
+a.class1:link {
+    text-decoration: none;
+    color: #6d7680;
+}
+
+a.class1:visited {
+    text-decoration: none;
+    color: #6d7680;
+}
+
+a.class1:hover {
+    text-decoration: underline;
+    color: #3399DB;
+}
+
+a.class1:active {
+    text-decoration: none;
+    color: #6d7680;
+}
+
+a.class2 {
+    color: white;
+}
+
+a.class2:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.class2:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a.class2:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a.class2:active {
+    text-decoration: none;
+    color: white;
+}
+
+/* navigation */
+.navbar {
+    background-image: none !important;
+    background-color: #343A40 !important;
+    color: white !important;
+    height: 60px !important;
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+    background-color: white !important;
+    margin-top: 9px;
+    font-size: 1.5em;
+    padding: 5px 25px;
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+    border-radius: 5px 5px 0px 0px;
+    display: block;
+}
+
+.logo {
+    width: 45px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #343A40 !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}

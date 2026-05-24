@@ -1,0 +1,15 @@
+version: "3.0"
+project:
+  name: Tramy
+  description: ""
+  techStack: []
+defaultRole: data-analyst
+roles:
+  - data-analyst
+output:
+  analysis: analysis/
+  reports: reports/
+  notebooks: notebooks/
+data:
+  raw: data/raw/
+  processed: data/processed/

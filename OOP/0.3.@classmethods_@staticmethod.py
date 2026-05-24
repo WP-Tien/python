@@ -10,5 +10,5 @@ class ClassTest:
     def static_method():
         print("Called static_method")
 
-# ClassTest.class_method() # Called class_method of <class '__main__.ClassTest'>
-ClassTest.static_method() # Called static_method
+ClassTest.class_method() # Called class_method of <class '__main__.ClassTest'>
+# ClassTest.static_method() # Called static_method

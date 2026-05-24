@@ -23,3 +23,8 @@ for language in fav_languages.values():
 # Looping through all the keys in order
 for name in sorted(fav_languages.keys()):
     print(name + ": " + language)
+    
+# 
+print('checking...')
+for i in fav_languages:
+    print(i)

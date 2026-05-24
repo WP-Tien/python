@@ -1,0 +1,3 @@
+. Numpy (Numeric Python): là một thư viện toán học và mạnh mẽ của Python. Cho phép làm việc hiệu quả với ma trận và mảng
+. Các phần tử của array phải dùng dtype (ép kiểu sẽ xảy ra nếu cần thiết)
+. Numpy array là partly mutable: có thể thay đổi các phần tử đang có, nhưng không thể thay đổi kích thước của cả array (no append, remove, delete)

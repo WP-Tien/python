@@ -1,5 +1,5 @@
 def multiply(*args):
-    # print(args)
+    print(type(args)) # tuple
     total = 1
 
     for arg in args:

@@ -31,7 +31,5 @@ printer = Printer("Printer", "USB", 500)
 printer.print(20)
 
 print(printer)
-
 printer.disconnect()
-
 printer.print(30)

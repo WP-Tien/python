@@ -1,0 +1,6 @@
+{% load static %}
+{% load compress %}
+
+{% compress js %}
+    <script type="module" src="{% static 'posts/assets/js/scripts.js' %}"></script>
+{% endcompress %}

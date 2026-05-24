@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=pGMvvq7R1IM
+
+python -m venv venv
+source venv/bin/activate

@@ -18,14 +18,24 @@ print( st_a )
 st_a.pop()
 print( st_a )
 
-# Phép &h lấy giao của A và B
+# Phép &h lấy giao của A và B ( set intersection )
 print( st_a & st_b )
 
-# Phép | lấy hợp của A và B
+# Phép | lấy hợp của A và B ( set union )
 print( st_a | st_b )
 
-# Phép - lấy các giá trị chỉ có ở A không có ở B
+# Phép - lấy các giá trị chỉ có ở A không có ở B ( set difference )
 print( st_a - st_b )
 
 # Phép ^ bù của A và B chỉ lấy những phần tử có ở A và B nhưng không phải phần tử chung của hai tập hợp này
 print( st_a ^ st_b )
+
+# st_a <= st_b check if st_a is a subset of st_b
+print( st_a <= st_b )
+
+s1 = {1, 2, 3}
+s2 = {1, 2, 3, 4, 5, 6}
+print( s1 <= s2 ) # s1 is a subset s2 ( True )
+
+# st_a < st_b : check if st_a is a strict subset of st_b
+print( s1 < s2 ) # True

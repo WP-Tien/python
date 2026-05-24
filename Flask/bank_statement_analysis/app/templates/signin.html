@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% from 'bootstrap5/form.html' import render_field %}
+
+{% block body %}
+<div class="container mt-5" style="max-width: 500px;">
+    <div class="card shadow">
+        <div class="card-body">
+            <div class="text-center">
+                <img class="mb-2" src="{{ url_for('static', filename='images/pandasS_logo.png') }}" alt="" width="150"
+                    height="150">
+                <h5 class="text-dark-emphasis">Bank Statement Analyser</h1>
+            </div>
+
+            <hr />
+
+            <h2 class="mb-4 text-center text-dark-emphasis">
+                Sign In
+            </h2>
+
+            {% include "partials/message.html" %}
+
+            <!-- Login Form -->
+            <form method="POST">
+                {{ form.hidden_tag() }}
+
+                {{ render_field(form.username) }}
+
+                {{ render_field(form.password) }}
+
+                <div class="d-flex justify-content-between">
+                    {{ render_field(form.remember) }}
+
+                    <a href="{{ url_for('main.signup') }}" >Register account</a>
+                </div>
+                
+                {{ render_field(form.submit) }}
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

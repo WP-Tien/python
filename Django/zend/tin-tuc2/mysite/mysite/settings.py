@@ -40,9 +40,11 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.humanize",
     "news.apps.NewsConfig",
+    "shop.apps.ShopConfig",
     "tinymce",
     "django_cleanup.apps.CleanupConfig",
     'django_dump_die',
+    'django_seed',
 ]
 
 MIDDLEWARE = [
@@ -98,7 +100,7 @@ DATABASES = {
         'USER': 'root',
         # 'PASSWORD': 'your_mysql_password',
         'HOST': 'localhost',
-        'PORT': 3308
+        'PORT': 3306
     }
 }
 

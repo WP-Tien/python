@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+<!-- Style inline -->
+{% block head %}
+    {% if completed %}
+        <style>
+            .p-tmp {
+                margin: 8px 16px;
+                background-color: aquamarine;
+                padding: 12px 24px;
+                border: 1px solid black;
+                border-radius: 4px;
+            }
+        </style>
+    {% else %}
+        <style>
+            .p-tmp {
+                margin: 8px 16px;
+                background-color: darkred;
+                color: white;
+                padding: 12px 24px;
+                border: 1px solid black;
+                border-radius: 4px;
+            }
+        </style>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ text }}</h1>
+
+    {% if completed %}
+        <!-- Named class -->
+        <p class="todo todo--completed">You're completed this todo</p>
+    {% else %}
+        <p class="todo todo--pending">You haven't completed this yet. Why not do it now?</p>
+    {% endif %}
+{% endblock %}
