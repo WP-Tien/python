@@ -1,6 +1,6 @@
 import logging
-from flask import flash, Blueprint, request, render_template, redirect
-from flask_login import LoginManager, login_user, login_required, current_user
+from flask import flash, Blueprint, request, render_template, redirect, url_for
+from flask_login import LoginManager, login_user, login_required, current_user, logout_user
 
 from sqlalchemy import text 
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -102,3 +102,9 @@ def signup():
             flash("That username or email is already registered", "danger")
         
     return render_template("signup.html", form=form)
+
+@main.route("/logout")
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('main.login'))

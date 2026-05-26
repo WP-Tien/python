@@ -18,7 +18,7 @@ class User(UserMixin, db.Model):
     )
     
     password = db.Column(
-        db.String(80),
+        db.String(256),
         nullable=False
     )
     
@@ -26,5 +26,6 @@ class User(UserMixin, db.Model):
         return {
             "id": self.id,
             "username": self.username,
-            "email": self.email
+            "email": self.email,
+            "password": self.password,
         }

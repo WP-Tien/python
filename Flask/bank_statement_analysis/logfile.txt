@@ -83,3 +83,10 @@ CRITICAL:root:The following error occurred when logging in: name 'flash' is not 
 CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
 CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
 CRITICAL:root:The following error occurred when logging in: name 'flash' is not defined
+CRITICAL:root:The following error occurred when logging in: (pymysql.err.OperationalError) (1054, "Unknown column 'users.password' in 'field list'")
+[SQL: SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.password AS users_password 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'dsadsd', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

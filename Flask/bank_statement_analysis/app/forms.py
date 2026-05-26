@@ -51,7 +51,7 @@ class RegisterForm(FlaskForm):
         'Password',
         validators = [
             InputRequired(),
-            Length(min=8, max=80),
+            Length(min=8, max=225),
         ]
     )
     
@@ -59,7 +59,7 @@ class RegisterForm(FlaskForm):
         'Password',
         validators = [
             InputRequired(),
-            Length(min=8, max=80),
+            Length(min=8, max=225),
             EqualTo('password', 'Password must match')
         ]
     )
